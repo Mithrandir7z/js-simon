@@ -40,15 +40,14 @@ function inserireNumeri () {
         var numeroAttuale = 0;
         numeroAttuale = prompt("Inserisci i numeri osservati", "Inserisci");
         numeriInseriti.push(numeroAttuale);
-        console.log("Numero Inserito pushato", numeroAttuale);
+        // console.log("Numero Inserito pushato", numeroAttuale);
     }
 
     for (var k = 0; k < numeriGenerati.length; k++) {
         
-        alert("SONO ENTRATO NEL CICLO numeriGenerati");
     
         for (var z = 0; z < numeriInseriti.length; z++) {
-            console.log("numeriInseriti.length: ", numeriInseriti[z]);
+            // console.log("numeriInseriti.length: ", numeriInseriti[z]);
             
             if (numeriInseriti[z] == numeriGenerati[k]) {
                 numeriIndovinati.push(numeriInseriti[z]);
@@ -56,10 +55,10 @@ function inserireNumeri () {
             }
         }
     }
-    console.log(numeriIndovinati);
-    console.log(sommaNumeriEsatti);
+
+    //Stampa nel console.log il risultato
+    console.log("I numeri indovinati sono: ", numeriIndovinati);
+    
+    console.log("Il totale dei numeri indovinati è di: ", sommaNumeriEsatti);
+
 }
-
-
-
-//Infine stampa

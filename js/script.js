@@ -30,7 +30,7 @@ var numeriInseriti = [];
 //crea una scansione dei numeriGenerati.leght con un for () e dentro il for in serire un'altra iterazione per scansionare i numeriInseriti.leght 
 //2 for se numeriGenerati.leght == numeriInseriti.leght allora pusha quel valore in un terzo array e poi incrementa la somma di 1.
 
-setTimeout (inserireNumeri, 2000);
+setTimeout (inserireNumeri, 30000);
 
 var numeriIndovinati = [];
 var sommaNumeriEsatti = 0;
